@@ -21,10 +21,15 @@ namespace Lab2
 
         }
 
-         public Game(string t1, string t2, int scr1, int scr2)
+         public Game(string tm1, string tm2, int scr1, int scr2)
         {
-            Teams1 = t1;
-            Teams2 = t2;
+ Branch_1
+            Tm1 = t1;
+            Tm2 = t2;
+=======
+            Tm1 = t1;
+            Tm2 = t2;
+ master
             Score1 = scr1;
             Score2 = scr2;
         }
@@ -41,3 +46,5 @@ namespace Lab2
 
     }
 }
+
+//A Change in the Master Branch
