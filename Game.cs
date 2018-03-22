@@ -23,8 +23,8 @@ namespace Lab2
 
          public Game(string t1, string t2, int scr1, int scr2)
         {
-            Team1 = t1;
-            Team2 = t2;
+            Teams1 = t1;
+            Teams2 = t2;
             Score1 = scr1;
             Score2 = scr2;
         }
